@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import { LanguageProvider } from './context/LanguageContext.jsx';
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
+import Header from './components/header.jsx';
+import Footer from './components/footer.jsx';
 import FloatingWhatsApp from './components/FloatingWhatsApp.jsx';
 
 // Pages
